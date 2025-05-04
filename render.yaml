@@ -7,3 +7,5 @@ services:
     envVars:
       - key: MONGO_URI
         sync: false
+      - key: PYTHONPATH
+        value: .

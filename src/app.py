@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify, request, current_app
-from database import Database
+from .database import Database
 import os
 from dotenv import load_dotenv
 from functools import wraps
